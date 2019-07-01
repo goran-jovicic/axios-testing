@@ -65,12 +65,12 @@ export default {
   //       console.log(e)
   //     })
 
-  //   userService.getUserPosts()
-  //   .then(response => {
-  //     console.log(response)
-  //   }).catch(e => {
-  //     console.log(e)
-  //   })
+    // userService.getPosts()
+    // .then(response => {
+    //   console.log(response)
+    // }).catch(e => {
+    //   console.log(e)
+    // })
 
   //     // console.log(this.posts)
   }

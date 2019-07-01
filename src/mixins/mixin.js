@@ -1,3 +1,5 @@
+import { networkInterfaces } from "os";
+
 export const mixin1 = {
     data () {
         return {
@@ -35,5 +37,19 @@ export const mixin3 = {
     },
     mounted () {
         console.log('Called from moutned')
+    }
+}
+
+export const mixin4 = {
+    data () {
+        return {
+            date: new Date()
+        }
+    },
+
+    methods : {
+        getFormattedDate(date) {
+            return new Intl.DateTimeFormat().format(date);
+        }
     }
 }
